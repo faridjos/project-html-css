@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+h1, h2{
+    text-transform: uppercase;
+}
+
+#logo { 
+    margin-left: 30px;
+    float: left;
+    font-size: 300%;
+}
+
+.navigation {
+    float: right;
+}
+
+#logo, .navigation {
+    line-height: 75px;
+}
+
+
+.navigation li {
+    float:left;
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#hero {
+    clear: both;
+    width: 100%;
+    height: 600px;
+}
+
+#hero-image {
+    width: 100%;
+    height: 600px;
+    background: url('../images/people-in-gym.jpg') no-repeat center center;
+}
