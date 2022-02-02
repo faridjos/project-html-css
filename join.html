@@ -10,7 +10,7 @@
 <body>
     <header id="header">
         <a>
-            <h1 id="logo">Family Gym</h1>
+            <h1 id="logo">The Family Gym</h1>
         </a>
         <nav>
             <ul id="navigation">
@@ -26,7 +26,22 @@
             </ul>
         </nav>
     </header>
-    
+    <section id="form-section">
+        <form id="form" method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Become a Family member</h2>
+
+            <label for="last-name"><strong>Last Name</strong></label>
+            <input id="last-name" name="last_name" type="text" class="form-input" required>
+
+            <label for="family-size"><strong>Size of Family</strong></label>
+            <input id="family-size" name="family_size" type="number" min="1" max="100" class="form-input" required>
+            
+            <label for="email"><strong>Email Address</strong></label>
+            <input id="email" name="email_address" type="email" class="form-input" required>
+                       
+            <input type="submit" value="Become a Family Member" id="submit-button" >
+        </form>
+    </section>
     <footer id="footer">
 
         <table>
