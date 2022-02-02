@@ -4,6 +4,14 @@
     border: none;
 }
 
+/* headings and logo */
+
+#header {
+    height: 75px;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
 h1, h2 {
     text-transform: uppercase;
 }
@@ -14,21 +22,38 @@ h1, h2 {
     font-size: 250%;
 }
 
-.navigation {
+/* navigation links */
+
+#navigation {
     float: right;
 }
 
-#logo, .navigation {
+#logo, #navigation {
     line-height: 75px;
 }
 
 
-.navigation li {
+#navigation li {
     float:left;
     display: inline;
     list-style-type: none;
     margin-right: 30px;
 }
+
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation a:hover {
+    border-bottom: 1px solid;
+}
+
+.active {
+    border-bottom: 1px solid;
+}
+
+/* Hero image and welcome text */
 
 #hero {
     clear: both;
@@ -42,12 +67,17 @@ h1, h2 {
     background: url('../images/people-in-gym.jpg') no-repeat center center;
 }
 
+#welcome-text {
+    
+}
+
+/* About section */
+
 #about {
     height: 600px;
     width: 100%;
     background-color: rgb(233, 233, 233);
-    text-align: center;
-   }
+}
 
 #about h2 {
     padding: 40px 0 10px 0;
@@ -57,58 +87,81 @@ h1, h2 {
     padding: 10px 0;
 }
 
+#about-first-section {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about-first-section p{
+    text-align: left;
+}
+
 #centered-box {
-    height: 500px;
+    height: 460px;
     width: 50%;
     margin: 0 auto; 
 }
 
-#right-box {
-    height: 500px;
-    width: 49%;
-    float: right;
-    text-align: center;
-   }
-
 #left-box {
-    height: 500px;
+    height: 430px;
     width: 49%;
     float: left;
     text-align: center;
-    }
+    padding-top: 30px;
+}
 
+#left-box p{
+    text-align: left;
+}
+
+#right-box {
+    height: 430px;
+    width: 49%;
+    float: right;
+    text-align: center;
+    padding-top: 30px;
+   }
+
+#right-box p{
+    text-align: left;
+}
 
 #photo-box-right {
-    height: 55%;
+    height: 75%;
     width: 100%;
     background: url('../images/children-in-gym.jpg') no-repeat center center;
 }
 
 #photo-box-left {
-    height: 55%;
+    height: 75%;
     width: 100%;
     background: url('../images/women-performing-zumba.jpg') no-repeat top right;
 }
+
+/* footer */
 
 #footer {
     height: 150px;
     width: 100%;
     background-color: black;
-    color: white;
-    font-size: 200%;
+    color: rgb(233, 233, 233);
+    font-size: 180%;
 }
 
 #footer table {
     float: left;
 }
 
+#footer table th {
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
 #footer ul {
     float:right;
     list-style-type: none;
     margin-right: 30px;
-}
-
-#footer ul {
     line-height: 150px;
 }
 
@@ -117,4 +170,8 @@ h1, h2 {
     display: inline;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#footer a {
+    color:rgb(233, 233, 233);
 }
