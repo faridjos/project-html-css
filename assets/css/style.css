@@ -59,16 +59,26 @@ h1, h2 {
     clear: both;
     width: 100%;
     height: 600px;
+    position: relative;
 }
 
 #hero-image {
     width: 100%;
     height: 600px;
-    background: url('../images/people-in-gym.jpg') no-repeat center center;
+    background: url('../images/people-in-gym.jpg') no-repeat center center fixed;
 }
 
 #welcome-text {
-    
+    /*width: 600px;*/
+    /*height: 50px;*/
+    background-color: rgba(42, 192, 4, 0.7);  
+    position: absolute;
+    bottom: 100px;
+    left: 100px; 
+    padding: 20px 10px;
+    font-size: 150%;
+    color: white;
+    text-transform: uppercase;
 }
 
 /* About section */
