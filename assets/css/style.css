@@ -4,13 +4,17 @@
     border: none;
 }
 
+body {
+    background-color: rgb(233, 233, 233);
+}
+
 /* Headings and logo */
 
 #header {
     height: 75px;
     width: 100%;
     background-color: rgb(233, 233, 233);
-}
+    }
 
 h1, h2, h3 {
     text-transform: uppercase;
@@ -69,8 +73,6 @@ h1, h2, h3 {
 }
 
 #welcome-text {
-    /*width: 600px;*/
-    /*height: 50px;*/
     background-color: rgba(42, 192, 4, 0.7);  
     position: absolute;
     bottom: 100px;
@@ -104,12 +106,12 @@ h1, h2, h3 {
 }
 
 #about-first-section p{
-    text-align: left;
+    text-align: center;
 }
 
 #centered-box {
     height: 460px;
-    width: 50%;
+    width: 67%;
     margin: 0 auto; 
 }
 
@@ -156,22 +158,22 @@ h1, h2, h3 {
     width: 100%;
     background-color: black;
     color: rgb(233, 233, 233);
-    font-size: 180%;
+    font-size: 150%;
 }
 
 #footer table {
     float: left;
+    padding-left: 30px;
+    padding-top: 15px;
 }
 
 #footer table th {
     text-transform: uppercase;
-    padding-top: 15px;
 }
 
 #footer ul {
     float:right;
     list-style-type: none;
-    margin-right: 30px;
     line-height: 150px;
 }
 
@@ -224,4 +226,80 @@ h1, h2, h3 {
 #submit-button:hover {
     background-color: white;
     color: rgb(213, 63, 251);
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    column-count: 3;
+    line-height: 0;
+    column-gap: 0;
+    background-color: rgb(233, 233, 233);
+}
+
+#photos > img {
+    width: 100%;
+}
+
+/* media queries */
+
+@media screen and (max-width: 950px) {
+
+    #header {
+        height: 100px;
+        padding-bottom: 20px;
+    }
+
+    #navigation {
+        clear: left;
+        float: left;
+        padding-left: 30px;
+        line-height: 25px;
+    }
+
+    #footer {
+        height: 175px;
+    }
+
+    #footer table {
+        padding-bottom: 20px;
+    }
+
+    #footer ul {
+        clear: left;
+        float: left;
+        padding-left: 30px;
+        line-height: 25px;
+    }
+
+    #about {
+        width: 67%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #about-first-section {
+        float: left;
+    }
+
+    #centered-box {
+        float: left;
+        clear: left; 
+    }
+
+    #left-box {
+        width: 100%;
+        float: left; 
+    }
+    
+    #right-box {
+        width: 100%;
+        float: left; 
+    }
+
+    @media screen and (max-width: 800px) {
+        #photos {
+            column-count: 2;
+        }
 }
