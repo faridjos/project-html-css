@@ -37,5 +37,5 @@ The family gym website is targeted towards families who want to go the gym toget
 
     The accessibility score for my code was 100% according to lighthouse in devtools.
 
-    <img src="assets/images/lighthouse-result.PNG">
+    <img src="https://faridjos.github.io/project-html-css/assets/images/lighthouse-result.PNG">
 
