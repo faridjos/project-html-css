@@ -49,7 +49,7 @@ No errors were found with the W3C validator for both html and css files.
 
 ### Accessibility
 
-The accessibility score for my code was 100% according to lighthouse in devtools.
+The accessibility score for my code was 97% according to lighthouse in devtools.
 
 <img src="assets/images/lighthouse-result.PNG">
 
