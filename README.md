@@ -25,3 +25,17 @@ The family gym website is targeted towards families who want to go the gym toget
 - I tested that the form works correctly. In particular it checks if one enters a number (between 1 and 100) and that the email address has the correct format.
 - I tested the responsiveness of the website for different screen sizes.
 
+### Bugs
+
+    One link did not work because I forgot to change the placeholder text to a link
+
+### Validator testing
+
+    No errors were found with the W3C validator for both html and css files.
+
+### Accessibility
+
+    The accessibility score for my code was 100% according to lighthouse in devtools.
+    
+    assets/images/lighthouse-result.PNG
+
