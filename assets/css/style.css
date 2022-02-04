@@ -173,7 +173,7 @@ footer a {
     line-height: 150px;
 }
 
-/* form */
+/* Form */
 
 #form-section{
     height: 600px;
@@ -214,7 +214,7 @@ footer a {
     color: rgb(213, 63, 251);
 }
 
-/* gallery */
+/* Gallery */
 
 #photos {
     clear: both;
@@ -228,13 +228,17 @@ footer a {
     width: 100%;
 }
 
-/* media queries */
+/* Media queries */
+
+/* Screens less than 800px */
 
 @media screen and (max-width: 800px) {
     #photos {
         column-count: 2;
     }
 }
+
+/* Screens less than 700px */
 
 @media screen and (max-width: 700px) {
 
@@ -287,6 +291,7 @@ footer a {
     }
 }    
 
+/* Screens less than 450 px */
 
 @media screen and (max-width: 450px) {
     #left-content, #right-content, #left-photo, #right-photo {
